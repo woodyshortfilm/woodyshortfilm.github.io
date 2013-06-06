@@ -1,4 +1,4 @@
-woodyshortfilm.github.io
+WOODY – The animated short film
 ========================
 
-Static site for short film WOODY. Hosted with GitHub Pages.
+Jekyll-based static site for Stuart's animated short film, _WOODY_.
