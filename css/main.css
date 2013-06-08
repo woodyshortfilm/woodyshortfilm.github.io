@@ -15,6 +15,25 @@ body {
   background: #000000;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.background-cover {
+  font-family: 'WOODY';
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
 .section-heading {
   font-family: 'WOODY';
   font-size: 1.3em;
@@ -44,12 +63,7 @@ header #masthead-separator {
 
 #intro {
   height: 612px;
-  background: url('/img/intro.jpg') no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  font-family: 'WOODY';
+  background-image: url('/img/intro.jpg');
 }
 
 #intro .title {
@@ -84,16 +98,6 @@ header #masthead-separator {
   letter-spacing: .1em;
 }
 
-#nav a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-#nav a:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-
 #nav ul, #nav li {
   margin: 0;
   padding: 0;
@@ -114,12 +118,47 @@ header #masthead-separator {
 #credits img { margin-left: -14px; }
 
 #info {
-  height: 493px;
+  height: 468px;
   background-image: url('/img/info.jpg');
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
 }
-#info p { width: 410px; }
+
+#info .paragraph {
+  font-family: 'Open Sans', sans-serif;
+  width: 410px;
+}
+
+#news {
+  height: 468px;
+  background-image: url('/img/news.jpg');
+}
+
+#news p { margin-left: 540px; }
+
+#video {
+  height: 468px;
+  background-image: url('/img/video.jpg');
+}
+
+#video .paragraph { width: 460px; }
+
+#video #video-thumbnails {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9em;
+  width: 460px;
+  margin: 0px;
+}
+
+#video #video-thumbnails img { margin-bottom: 10px; }
+
+.quote {
+  padding-top: 10px;
+  font-family: 'WOODY';
+  font-size: 1.1em;
+  letter-spacing: .1em;
+  line-height: 1.6em;
+}
+
+.quoter {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
