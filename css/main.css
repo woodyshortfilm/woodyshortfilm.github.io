@@ -132,7 +132,7 @@ header #masthead-separator {
   background-image: url('/img/news.jpg');
 }
 
-#news p { margin-left: 540px; }
+#news p { margin-left: 520px; }
 
 #video {
   height: 468px;
@@ -162,3 +162,25 @@ header #masthead-separator {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
 }
+
+#images {
+  height: 468px;
+  background-image: url('/img/images.jpg');
+}
+
+#images p { margin-left: 520px; }
+
+footer {
+  height: 60px;
+  background-image: url('/img/footer-background.jpg');
+  background-size: auto 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8em;
+}
+
+footer .grid .unit {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+footer #copyright { padding-left: 40px; }
+footer #email { padding-right: 40px; }
