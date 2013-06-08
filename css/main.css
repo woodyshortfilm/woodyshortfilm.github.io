@@ -102,7 +102,7 @@ header #masthead-separator {
 #nav li {
   list-style-type: none;
   display: inline-block;
-  width: 88px;
+  width: 84px;
   height: 68px;
   padding-top: 2px;
   padding-left: 14px;
@@ -111,7 +111,7 @@ header #masthead-separator {
   background-repeat: no-repeat;
 }
 
-#credits img { margin-left: -32px; }
+#credits img { margin-left: -14px; }
 
 #info {
   height: 493px;
