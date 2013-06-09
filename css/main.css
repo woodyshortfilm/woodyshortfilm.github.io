@@ -178,6 +178,7 @@ footer {
 
 footer .grid .unit {
   padding: 20px;
+  opacity: 0.85;
 }
 
 footer #copyright div {
