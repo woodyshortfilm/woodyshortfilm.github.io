@@ -132,7 +132,7 @@ header #masthead-separator {
   background-image: url('/img/news.jpg');
 }
 
-#news p { margin-left: 520px; }
+#news p, #news #tweet-container { margin-left: 510px; }
 
 #video {
   height: 468px;
