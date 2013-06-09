@@ -179,3 +179,16 @@ footer {
 footer .grid .unit {
   padding: 20px;
 }
+
+footer #copyright div {
+  float: left;
+}
+
+footer .chalk-mark {
+  background-image: url('/img/footer-chalk-mark.png');
+  background-size: 4px auto;
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 26px;
+  margin: -4px 6px 0px 6px;
+}
