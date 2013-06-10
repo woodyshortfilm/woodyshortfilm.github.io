@@ -56,9 +56,11 @@ header #masthead #awards {
 }
 
 header #masthead-separator {
-  background-color: #ffffff;
-  height: 8px;
-  margin-top: -10px;
+  height: 13px;
+  margin-top: -12px;
+  background-image: url('/img/masthead-separator.png');
+  background-size: auto 13px;
+  background-repeat: no-repeat;
 }
 
 #intro {
