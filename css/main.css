@@ -173,11 +173,30 @@ header #masthead-separator {
 }
 
 #images {
+  font-family: 'Open Sans', sans-serif;
   height: 468px;
   background-image: url('/img/images.jpg');
 }
 
-#images p { margin-left: 520px; }
+#images p, #images div.grid {
+  margin-left: 510px;
+  padding-left: 0px;
+}
+
+#images #image-carousel {
+  display: none;
+  width: 800px;
+  left: 50%;
+  margin-left: -400px;
+  top: 50%;
+  margin-top: -211px;
+  height: 422px;
+}
+
+#images #image-carousel .carousel-control {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  top: 50%;
+}
 
 footer {
   height: 60px;
