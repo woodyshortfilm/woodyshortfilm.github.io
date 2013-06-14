@@ -15,14 +15,13 @@ body {
   background: #000000;
 }
 
-a {
+a, a:hover, a:active, a:visited {
   color: #ffffff;
   text-decoration: none;
 }
 
-a:visited {
-  color: #ffffff;
-  text-decoration: none;
+a:hover, a:active {
+  text-decoration: underline;
 }
 
 .background-cover {
@@ -141,6 +140,15 @@ header #masthead-separator {
 }
 
 #video .paragraph { width: 460px; }
+
+#video .embedded-video {
+  width: 853px;
+  left: 50%;
+  margin-left: -426px;
+  top: 50%;
+  margin-top: -240px;
+  height: 480px;
+}
 
 #video #video-thumbnails {
   font-family: 'Open Sans', sans-serif;
