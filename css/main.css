@@ -75,7 +75,7 @@ header #masthead-separator {
 }
 
 #intro {
-  height: 544px;
+  height: 541px;
   background-image: url('/img/intro.jpg');
 }
 
@@ -140,14 +140,14 @@ header #masthead-separator {
 }
 
 #news {
-  height: 468px;
+  height: 469px;
   background-image: url('/img/news.jpg');
 }
 
 #news p, #news #tweet-container { margin-left: 510px; }
 
 #video {
-  height: 468px;
+  height: 469px;
   background-image: url('/img/video.jpg');
 }
 
@@ -186,7 +186,7 @@ header #masthead-separator {
 
 #images {
   font-family: 'Open Sans', sans-serif;
-  height: 468px;
+  height: 469px;
   background-image: url('/img/images.jpg');
 }
 
