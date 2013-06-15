@@ -17,6 +17,27 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script>
+    // Navigation link behaviour.
+    $("#nav a").click(function(e) {
+      var dest = 0;
+      if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+        dest = $(document).height() - $(window).height();
+      } else {
+        dest = $(this.hash).offset().top;
+      }
+      // Scroll to destination
+      $('html,body').animate({ scrollTop: dest }, 'slow');
+      window.location.hash = this.hash;
+      e.preventDefault();
+    });
+
+    // Scroll to the top of the page when .top is clicked.
+    $('a.top').click(function(e) {
+      $("html, body").animate({ scrollTop: 0 }, "slow");
+      history.pushState(null, null, this.href);
+      e.preventDefault();
+    });
+    
     // Enable left and right arrow keys to control the carousel.
     $(document).keydown(function(e) {
       var $carousel = $('#image-carousel');
@@ -30,12 +51,6 @@
         default: return;
       }
       e.preventDefault();
-    });
-
-    // Scroll to the top of the page when .top is clicked.
-    $('a.top').click(function(e) {
-      e.preventDefault();
-      $("html, body").animate({ scrollTop: 0 }, "slow");
     });
     </script>
   </body>
