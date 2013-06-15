@@ -111,17 +111,17 @@ carousel_images: [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
       ALL THE TIME'<br/>
       <span class="quoter">&mdash; Duke Ellington</span>
     </p>
-    <div id="youtube-trailer" class="embedded-video modal hide fade">
+    <div id="youtube-trailer" class="embedded-video modal hide fade" tabindex="-1">
       <iframe width="853" height="480"
         src="http://www.youtube.com/embed/xAjjklfl2cU?rel=0"
         frameborder="0" allowfullscreen></iframe>
     </div>
-    <div id="youtube-making-of" class="embedded-video modal hide fade">
+    <div id="youtube-making-of" class="embedded-video modal hide fade" tabindex="-1">
       <iframe width="853" height="480"
         src="http://www.youtube.com/embed/Lsh9YKM24Ww?rel=0"
         frameborder="0" allowfullscreen></iframe>
     </div>
-    <div id="youtube-mood-reel" class="embedded-video modal hide fade">
+    <div id="youtube-mood-reel" class="embedded-video modal hide fade" tabindex="-1">
       <iframe width="853" height="480"
         src="http://www.youtube.com/embed/v7zzFJpqgyo?rel=0"
         frameborder="0" allowfullscreen></iframe>
@@ -151,7 +151,7 @@ carousel_images: [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
 
 <div id="images" class="grid background-cover">
   <div class="unit whole">
-    <div id="image-carousel" class="carousel slide modal hide fade">
+    <div id="image-carousel" class="carousel slide modal hide fade" data-interval="false" tabindex="-1">
       <ol class="carousel-indicators">
         {%assign first = true %}
         {%assign indicator_index = -1%}
