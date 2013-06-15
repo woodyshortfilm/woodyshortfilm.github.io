@@ -185,12 +185,17 @@ header #masthead-separator {
 
 #images #image-carousel {
   display: none;
+  position: fixed;
   width: 800px;
   left: 50%;
   margin-left: -400px;
   top: 50%;
   margin-top: -211px;
   height: 422px;
+}
+
+#images #image-carousel .carousel-indicators li {
+  cursor: pointer;
 }
 
 #images #image-carousel .carousel-control {
