@@ -31,15 +31,15 @@ a:hover, a:active {
   position: relative;
   font-family: 'WOODY';
   background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .top {
-  right: 20px;
-  bottom: 20px;
+  right: 16px;
+  bottom: 16px;
   position: absolute;
   width: 16px;
   height: 16px;
@@ -62,7 +62,7 @@ header #masthead #title {
 
 header #masthead #awards {
   margin-left: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: inline-block;
 }
 
@@ -75,7 +75,6 @@ header #masthead-separator {
 }
 
 #intro {
-  height: 541px;
   background-image: url('/img/intro.jpg');
 }
 
@@ -104,7 +103,10 @@ header #masthead-separator {
   margin-right: 4px;
 }
 
-#nav-and-credits { margin-top: 132px; }
+#nav-and-credits {
+  margin-top: 152px;
+  margin-bottom: 10px;
+}
 
 #nav {
   font-size: .9em;
@@ -131,25 +133,29 @@ header #masthead-separator {
 #credits img { margin-left: -14px; }
 
 #info {
-  height: 468px;
   background-image: url('/img/info.jpg');
 }
+
+#info .unit { margin-bottom: 20px; }
 
 #info .paragraph {
   font-family: 'Open Sans', sans-serif;
 }
 
 #news {
-  height: 469px;
   background-image: url('/img/news.jpg');
 }
 
-#news p, #news #tweet-container { margin-left: 510px; }
+#news p, #news #tweet-container {
+  margin-left: 510px;
+  margin-bottom: 30px;
+}
 
 #video {
-  height: 469px;
   background-image: url('/img/video.jpg');
 }
+
+#video .unit { margin-bottom: 10px; }
 
 #video .paragraph { width: 460px; }
 
@@ -186,9 +192,10 @@ header #masthead-separator {
 
 #images {
   font-family: 'Open Sans', sans-serif;
-  height: 469px;
   background-image: url('/img/images.jpg');
 }
+
+#images > .unit { margin-bottom: 20px; }
 
 #images p, #images div.grid {
   margin-left: 510px;
