@@ -15,6 +15,9 @@ body {
   background: #000000;
 }
 
+/* Bootstrap override */
+.modal-backdrop.fade.in { opacity: 0.9; }
+
 a, a:hover, a:active, a:visited {
   color: #ffffff;
   text-decoration: none;
