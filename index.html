@@ -175,11 +175,12 @@ carousel_images: [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
       <a class="carousel-control right" href="#image-carousel" data-slide="next">&rsaquo;</a>
     </div>
     <p class="section-heading">IMAGES</p>
+    {%assign thumbnail_index = -1%}
     {%for row in page.carousel_images%}
     <div class="grid">
       {%for img in row%}
       <div class="unit one-third">
-        <a href="#image-carousel" data-toggle="modal">
+        <a href="#image-carousel" data-toggle="modal" data-slide-to="{%increment thumbnail_index%}">
           <img src="/img/carousel/thumbs/{{img}}.jpg" width="115" alt="">
         </a>
       </div>
