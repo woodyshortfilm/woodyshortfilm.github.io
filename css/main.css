@@ -183,6 +183,17 @@ header #masthead-separator {
   padding-left: 0px;
 }
 
+#images .thumbs-row .unit {
+  padding: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#images .thumbs-row a {
+  width: 115px;
+  height: 61px;
+}
+
 #images #image-carousel {
   display: none;
   position: fixed;

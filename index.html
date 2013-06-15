@@ -1,7 +1,7 @@
 ---
 layout: default
 title: WOODY
-carousel_images: [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+carousel_images: [[1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3]]
 ---
 
 <header>
@@ -177,11 +177,11 @@ carousel_images: [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
     <p class="section-heading">IMAGES</p>
     {%assign thumbnail_index = -1%}
     {%for row in page.carousel_images%}
-    <div class="grid">
+    <div class="grid thumbs-row">
       {%for img in row%}
       <div class="unit one-third">
         <a href="#image-carousel" data-toggle="modal" data-slide-to="{%increment thumbnail_index%}">
-          <img src="/img/carousel/thumbs/{{img}}.jpg" width="115" alt="">
+          <img src="/img/carousel/thumbs/{{img}}.jpg" width="115" height="61" alt="">
         </a>
       </div>
       {%endfor%}
