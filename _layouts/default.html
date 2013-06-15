@@ -16,5 +16,23 @@
     {{ content }}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script>
+    $(document).keydown(function(e) {
+      // Enable left and right arrow keys to control the carousel.
+      var $carousel = $('#image-carousel');
+      switch (e.which) {
+        case 37: // left
+        $carousel.carousel('prev');
+        break;
+
+        case 39: // right
+        $carousel.carousel('next');
+        break;
+
+        default: return;
+      }
+      e.preventDefault();
+    });
+    </script>
   </body>
 </html>
