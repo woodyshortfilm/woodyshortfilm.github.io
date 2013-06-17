@@ -302,6 +302,16 @@ footer .grid .unit {
   padding: 20px;
   opacity: 0.85;
 }
+@media all and (max-width: 500px) {
+  footer .grid .unit, footer .grid .unit:first-child {
+    padding: 0px;
+    text-align: left;
+  }
+  footer .grid #email {
+    padding-top: 4px;
+    padding-bottom: 10px;
+  }
+}
 
 footer #copyright div {
   float: left;
