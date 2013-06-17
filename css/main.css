@@ -36,7 +36,7 @@ a:hover, a:active {
   -o-background-size: cover;
   background-size: cover;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   .background-cover {
     background-image: url('/img/background-cover-responsive.jpg') !important;
   }
@@ -59,18 +59,19 @@ a:hover, a:active {
 .paragraph {
   font-size: 0.9em;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   .paragraph {
     font-size: 0.85em;
     line-height: 1.1em;
   }
 }
 
+/* Header. */
 header #masthead #title {
   display: inline-block;
   padding: 10px 20px 0px 20px;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   header #masthead #title {
     padding-left: 0px;
     padding-right: 0px;
@@ -82,7 +83,7 @@ header #masthead #awards {
   margin-bottom: 10px;
   display: inline-block;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   header #masthead #awards {
     margin-left: 0px;
     margin-top: 10px;
@@ -97,6 +98,7 @@ header #masthead-separator {
   background-repeat: no-repeat;
 }
 
+/* Intro and navigation. */
 #intro {
   background-image: url('/img/intro.jpg');
 }
@@ -107,7 +109,7 @@ header #masthead-separator {
   line-height: 1.7em;
   letter-spacing: .1em;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   #intro .title {
     margin-top: 0px;
   }
@@ -136,7 +138,7 @@ header #masthead-separator {
   margin-top: 200px;
   margin-bottom: 10px;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   #nav-and-credits {
     margin-top: 20px;
   }
@@ -155,7 +157,7 @@ header #masthead-separator {
 #nav li {
   list-style-type: none;
   display: inline-block;
-  width: 84px;
+  width: 65px;
   height: 68px;
   padding-top: 2px;
   padding-left: 14px;
@@ -163,11 +165,15 @@ header #masthead-separator {
   background-size: 6px auto;
   background-repeat: no-repeat;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
+  #nav {
+    font-size: 1.1em;
+  }
   #nav li {
     background: none;
     padding-left: 0px;
-    height: 30px;
+    height: 35px;
+    width: 45%;
   }
 }
 
@@ -177,12 +183,14 @@ header #masthead-separator {
   background-image: url('/img/info.jpg');
 }
 
+/* Info. */
 #info .unit { margin-bottom: 20px; }
 
 #info .paragraph {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* News. */
 #news {
   background-image: url('/img/news.jpg');
 }
@@ -191,12 +199,13 @@ header #masthead-separator {
   margin-left: 510px;
   margin-bottom: 30px;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   #news p, #news #tweet-container {
     margin-left: 0px;
   }
 }
 
+/* Video. */
 #video {
   background-image: url('/img/video.jpg');
 }
@@ -220,7 +229,7 @@ header #masthead-separator {
   width: 460px;
   margin: 0px;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   #video #video-thumbnails {
     width: 100%;
   }
@@ -238,7 +247,7 @@ header #masthead-separator {
   letter-spacing: .1em;
   line-height: 1.6em;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   .quote {
     font-size: .9em;
   }
@@ -248,11 +257,12 @@ header #masthead-separator {
   font-size: 1em;
 }
 
+/* Images. */
 #images {
   font-family: 'Open Sans', sans-serif;
   background-image: url('/img/images.jpg');
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   #images {
     background-image: none;
   }
@@ -264,7 +274,7 @@ header #masthead-separator {
   margin-left: 510px;
   padding-left: 0px;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   #images p, #images div.grid {
     margin-left: 0px;
   }
@@ -275,7 +285,7 @@ header #masthead-separator {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   #images .thumbs-row .unit {
     text-align: center;
   }
@@ -285,8 +295,7 @@ header #masthead-separator {
   width: 115px;
   height: 61px;
 }
-
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   #images .thumbs-row img {
     width: 200px;
   }
@@ -312,6 +321,7 @@ header #masthead-separator {
   top: 50%;
 }
 
+/* Footer. */
 footer {
   height: 60px;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -322,7 +332,7 @@ footer .grid .unit {
   padding: 20px;
   opacity: 0.85;
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 568px) {
   footer .grid .unit, footer .grid .unit:first-child {
     padding: 0px;
     text-align: left;
