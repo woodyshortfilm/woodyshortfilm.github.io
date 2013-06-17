@@ -224,6 +224,9 @@ header #masthead-separator {
   #video #video-thumbnails {
     width: 100%;
   }
+  #video #video-thumbnails img {
+    width: 200px;
+  }
 }
 
 #video #video-thumbnails img { margin-bottom: 10px; }
@@ -281,6 +284,12 @@ header #masthead-separator {
 #images .thumbs-row a {
   width: 115px;
   height: 61px;
+}
+
+@media all and (max-width: 500px) {
+  #images .thumbs-row img {
+    width: 200px;
+  }
 }
 
 #images #image-carousel {
