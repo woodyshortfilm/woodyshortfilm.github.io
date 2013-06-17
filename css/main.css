@@ -36,6 +36,11 @@ a:hover, a:active {
   -o-background-size: cover;
   background-size: cover;
 }
+@media all and (max-width: 500px) {
+  .background-cover {
+    background-image: url('/img/background-cover-responsive.jpg') !important;
+  }
+}
 
 .top {
   right: 16px;
@@ -53,6 +58,12 @@ a:hover, a:active {
 
 .paragraph {
   font-size: 0.9em;
+}
+@media all and (max-width: 500px) {
+  .paragraph {
+    font-size: 0.85em;
+    line-height: 1.1em;
+  }
 }
 
 header #masthead #title {
