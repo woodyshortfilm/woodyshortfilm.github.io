@@ -38,7 +38,7 @@ a:hover, a:active {
 }
 @media all and (max-width: 568px) {
   .background-cover {
-    background-image: url('/img/background-cover-responsive.jpg') !important;
+    background-image: url('/img/background-cover-mobile.jpg') !important;
   }
 }
 
@@ -83,10 +83,16 @@ header #masthead #awards {
   margin-bottom: 10px;
   display: inline-block;
 }
-@media all and (max-width: 568px) {
+@media all and (max-width: 568px) { /* Mobile */
   header #masthead #awards {
     margin-left: 0px;
     margin-top: 10px;
+  }
+}
+@media all and (max-width: 1024px) { /* iPad */
+  header #masthead #awards {
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
 }
 
@@ -109,12 +115,16 @@ header #masthead-separator {
   line-height: 1.7em;
   letter-spacing: .1em;
 }
-@media all and (max-width: 568px) {
+@media all and (max-width: 568px) { /* Mobile */
   #intro .title {
     margin-top: 0px;
   }
 }
-
+@media all and (max-width: 1024px) { /* iPad */
+  #intro .title {
+    margin-top: 10px;
+  }
+}
 
 #intro .sub-title {
   margin-top: 20px;
@@ -141,6 +151,11 @@ header #masthead-separator {
 @media all and (max-width: 568px) {
   #nav-and-credits {
     margin-top: 20px;
+  }
+}
+@media all and (max-width: 1024px) { /* iPad */
+  #nav-and-credits {
+    margin-top: 60px;
   }
 }
 
@@ -178,6 +193,11 @@ header #masthead-separator {
 }
 
 #credits img { margin-left: -14px; }
+@media all and (max-width: 1024px) { /* iPad */
+  #credits img {
+    display: none;
+  }
+}
 
 #info {
   background-image: url('/img/info.jpg');
