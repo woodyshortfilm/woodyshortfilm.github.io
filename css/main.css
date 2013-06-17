@@ -238,6 +238,11 @@ header #masthead-separator {
   font-family: 'Open Sans', sans-serif;
   background-image: url('/img/images.jpg');
 }
+@media all and (max-width: 500px) {
+  #images {
+    background-image: none;
+  }
+}
 
 #images > .unit { margin-bottom: 20px; }
 
@@ -245,11 +250,21 @@ header #masthead-separator {
   margin-left: 510px;
   padding-left: 0px;
 }
+@media all and (max-width: 500px) {
+  #images p, #images div.grid {
+    margin-left: 0px;
+  }
+}
 
 #images .thumbs-row .unit {
   padding: 0px;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+@media all and (max-width: 500px) {
+  #images .thumbs-row .unit {
+    text-align: center;
+  }
 }
 
 #images .thumbs-row a {
