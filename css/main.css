@@ -180,6 +180,11 @@ header #masthead-separator {
   margin-left: 510px;
   margin-bottom: 30px;
 }
+@media all and (max-width: 500px) {
+  #news p, #news #tweet-container {
+    margin-left: 0px;
+  }
+}
 
 #video {
   background-image: url('/img/video.jpg');
