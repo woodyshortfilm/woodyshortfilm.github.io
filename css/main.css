@@ -59,11 +59,23 @@ header #masthead #title {
   display: inline-block;
   padding: 10px 20px 0px 20px;
 }
+@media all and (max-width: 500px) {
+  header #masthead #title {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 
 header #masthead #awards {
   margin-left: 20px;
   margin-bottom: 10px;
   display: inline-block;
+}
+@media all and (max-width: 500px) {
+  header #masthead #awards {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
 }
 
 header #masthead-separator {
@@ -84,6 +96,12 @@ header #masthead-separator {
   line-height: 1.7em;
   letter-spacing: .1em;
 }
+@media all and (max-width: 500px) {
+  #intro .title {
+    margin-top: 0px;
+  }
+}
+
 
 #intro .sub-title {
   margin-top: 20px;
@@ -104,8 +122,13 @@ header #masthead-separator {
 }
 
 #nav-and-credits {
-  margin-top: 152px;
+  margin-top: 200px;
   margin-bottom: 10px;
+}
+@media all and (max-width: 500px) {
+  #nav-and-credits {
+    margin-top: 20px;
+  }
 }
 
 #nav {
@@ -128,6 +151,13 @@ header #masthead-separator {
   background-image: url('/img/nav-chalk-mark.png');
   background-size: 6px auto;
   background-repeat: no-repeat;
+}
+@media all and (max-width: 500px) {
+  #nav li {
+    background: none;
+    padding-left: 0px;
+    height: 30px;
+  }
 }
 
 #credits img { margin-left: -14px; }
