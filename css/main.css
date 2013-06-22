@@ -282,9 +282,14 @@ header #masthead-separator {
   font-family: 'Open Sans', sans-serif;
   background-image: url('/img/images.jpg');
 }
-@media all and (max-width: 568px) {
+@media all and (max-width: 568px) { /* Mobile */
   #images {
     background-image: none;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 1024px) { /* iPad portrait */
+  #images {
+    background-image: url('/img/background-cover-mobile.jpg');
   }
 }
 
@@ -294,7 +299,12 @@ header #masthead-separator {
   margin-left: 510px;
   padding-left: 0px;
 }
-@media all and (max-width: 568px) {
+@media all and (max-width: 568px) { /* Mobile */
+  #images p, #images div.grid {
+    margin-left: 0px;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 1024px) { /* iPad portrait */
   #images p, #images div.grid {
     margin-left: 0px;
   }
@@ -316,6 +326,11 @@ header #masthead-separator {
   height: 61px;
 }
 @media all and (max-width: 568px) {
+  #images .thumbs-row img {
+    width: 200px;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 1024px) { /* iPad portrait */
   #images .thumbs-row img {
     width: 200px;
   }
