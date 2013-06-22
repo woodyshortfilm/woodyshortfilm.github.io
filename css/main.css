@@ -382,6 +382,9 @@ footer .grid .unit {
     padding: 0px;
     text-align: left;
   }
+  footer .grid #copyright {
+    padding-top: 10px;
+  }
   footer .grid #email {
     padding-top: 4px;
     padding-bottom: 10px;
