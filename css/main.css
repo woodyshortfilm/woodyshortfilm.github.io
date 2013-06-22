@@ -193,7 +193,7 @@ header #masthead-separator {
 }
 
 #credits img { margin-left: -14px; }
-@media all and (max-width: 1024px) { /* iPad */
+@media all and (max-width: 1024px) { /* iPad Portrait */
   #credits img {
     display: none;
   }
@@ -214,12 +214,22 @@ header #masthead-separator {
 #news {
   background-image: url('/img/news.jpg');
 }
+@media all and (min-width: 481px) and (max-width: 1024px) { /* iPad portrait */
+  #news {
+    background-image: url('/img/background-cover-mobile.jpg');
+  }
+}
 
 #news p, #news #tweet-container {
   margin-left: 510px;
   margin-bottom: 30px;
 }
-@media all and (max-width: 568px) {
+@media all and (max-width: 568px) { /* Mobile */
+  #news p, #news #tweet-container {
+    margin-left: 0px;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 1024px) { /* iPad portrait */
   #news p, #news #tweet-container {
     margin-left: 0px;
   }
