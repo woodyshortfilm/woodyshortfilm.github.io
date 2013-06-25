@@ -48,7 +48,7 @@
       history.pushState(null, null, this.href);
       e.preventDefault();
     });
-    
+
     // Enable left and right arrow keys to control the carousel.
     $(document).keydown(function(e) {
       var $carousel = $('#image-carousel');
@@ -62,6 +62,14 @@
         default: return;
       }
       e.preventDefault();
+    });
+
+    // Stop video playback when video modal is dismissed.
+    $('.embedded-video').on('hidden', function () {
+      var $iframe = $(this).find('iframe'),
+          src = $iframe.attr("src");
+      $iframe.attr('src', '');
+      $iframe.attr('src', src);
     });
     </script>
   </body>
