@@ -341,7 +341,7 @@ header #masthead-separator {
   width: 115px;
   height: 61px;
 }
-@media all and (max-width: 568px) {
+@media all and (max-width: 568px) { /* Mobile */
   #images .thumbs-row img {
     width: 200px;
   }
@@ -361,6 +361,14 @@ header #masthead-separator {
   top: 50%;
   margin-top: -211px;
   height: 422px;
+}
+@media all and (max-width: 568px) { /* Mobile */
+  #images #image-carousel {
+    margin-left: -50%;
+    margin-top: -30%;
+    width: 100%;
+    height: auto;
+  }
 }
 
 #images #image-carousel .carousel-indicators li {
