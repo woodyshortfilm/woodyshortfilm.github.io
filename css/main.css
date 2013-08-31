@@ -73,32 +73,22 @@ a:hover, a:active {
 }
 
 /* Header. */
-header #masthead #title {
+header #masthead {
   display: inline-block;
-  padding: 10px 20px 0px 20px;
-}
-@media all and (max-width: 568px) {
-  header #masthead #title {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-
-header #masthead #awards {
-  margin-left: 20px;
-  margin-bottom: 10px;
-  display: inline-block;
+  width: 978px;
+  height: 202px;
+  padding: 0px;
+  margin-top: 10px;
+  background-image: url('/img/header-desktop.png');
+  background-size: 978px 202px;
+  background-repeat: no-repeat;
 }
 @media all and (max-width: 568px) { /* Mobile */
-  header #masthead #awards {
-    margin-left: 0px;
-    margin-top: 10px;
+  header #masthead {
   }
 }
 @media all and (max-width: 1024px) { /* iPad */
-  header #masthead #awards {
-    margin-top: 10px;
-    margin-bottom: 15px;
+  header #masthead {
   }
 }
 
