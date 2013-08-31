@@ -93,7 +93,7 @@ header #masthead {
     background-repeat: no-repeat;
   }
 }
-@media all and (max-width: 1024px) { /* iPad */
+@media all and (min-width: 481px) and (max-width: 1024px) { /* iPad portrait */
   header #masthead {
     width: 389px;
     height: 100px;
