@@ -85,10 +85,22 @@ header #masthead {
 }
 @media all and (max-width: 568px) { /* Mobile */
   header #masthead {
+    width: 100%;
+    min-height: 70px;
+    height: 70px;
+    background-image: url('/img/header-mobile.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
   }
 }
 @media all and (max-width: 1024px) { /* iPad */
   header #masthead {
+    width: 389px;
+    height: 100px;
+    margin-left: 16px;
+    background-image: url('/img/header-mobile.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
   }
 }
 
