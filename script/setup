@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+
+pow_dir         = "#{Dir.home}/.pow"
+pow_project_dir = "#{pow_dir}/woodyshortfilm"
+
+system "curl get.pow.cx | sh" unless Dir.exists? pow_dir
+
+
+FileUtils.mkdir_p pow_project_dir unless Dir.exists? pow_project_dir
+
+FileUtils.ln_s "#{Dir.pwd}/_site", "#{pow_project_dir}/public" unless
+  File.symlink? "#{pow_project_dir}/public"
+
+system "bundle install"
