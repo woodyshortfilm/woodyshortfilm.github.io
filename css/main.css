@@ -207,11 +207,11 @@ header #masthead-separator {
   }
 }
 
+/* Info. */
 #info {
   background-image: url('/img/info.jpg');
 }
 
-/* Info. */
 #info .unit { margin-bottom: 20px; }
 
 #info .paragraph {
@@ -381,6 +381,17 @@ header #masthead-separator {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   top: 50%;
 }
+
+/* Articles / Screenings and Festivals */
+#articles-screenings {
+  background-image: url('/img/info.jpg');
+}
+
+#articles-screenings .paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+}
+
 
 /* Footer. */
 footer {
