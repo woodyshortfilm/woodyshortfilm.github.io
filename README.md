@@ -9,4 +9,4 @@ $ script/setup
 $ script/server
 ```
 
-Go to: http://woodyshortfilm.dev
+Go to: http://localhost:4000
